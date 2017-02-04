@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='css/bootstrap.min.css' rel="stylesheet" media="screen">
+		<link href="css/my.css" rel="stylesheet">
+		<link href="js/vid1/css/style1.css" rel="stylesheet">
+		<script type="text/javascript" src="js/vid1/js/count.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="js/my.js"></script>
+		<title>Time travel</title>
+	</head>
+	<body style="background-image:url('img/1b.png')">
+		<div class="container-fluid page">
+			<div class="row">
+				<nav>	
+					<a href="#beg"><img src="img/tardis.png"></a>
+					<a href="#specialOffer">DISCOUNTS</a>
+					<a href="#feedback">FEEDBACK</a>
+					<a href="#contacts">CONTACTS</a>
+					<a href="" id="refApply">APPLY</a>
+				</nav>
+			</div>
+			<div class="row" id="beg">
+				<h1 class="text-center">TIME TRAVEL WITH THE DOCTOR</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<p style="margin:15% 7%" class="text-center">We are inviting you to an amazing trip in the past, present or future of any corner of our galaxy. But don't be afraid, all the way through your journey you will be guided and protected by the best companion you can imagine: the Doctor.</p>
+				</div>
+					<div class="col-md-4">
+					<img src="img/companions.jpg" alt="Doctor and his companions" class="img-responsive img-rounded">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<button class="center-block btn-lg apply" type="submit">APPLY NOW</button>
+				</div>
+			</div>
+			<div class="overlay"></div>
+			<div class="apply_window">
+				<div class="close_modal text-center">x</div>
+        		<form class="application_form" action="">
+	            	<h2 class="text-center">Application form</h2>
+	            	<label>Name
+	            		<input type="text" required="" placeholder="Name" name="txtname">
+	            	</label>
+	            	<label>Email
+	            		<input type="email" placeholder="Email" name="txtemail">
+	            	</label>
+	            	<label>Phone number
+	            		<input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required="" placeholder="Phone number" name="txtphone">
+	            	</label>
+	            	<label>Comments (specify date and destination of your journey)
+	            		<textarea name="txtmessage" placeholder="Comments" rows="5"></textarea>
+	            	</label>
+	            	<input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_disabled">
+	    			<input type="submit" class="button" value="Send" name="btnsend">
+        		</form>
+			</div>
+			<div class="row" id="specialOffer">
+				<h2 class="text-center">SPECIAL OFFER</h2>
+			</div>
+			<div class="row" style="margin:5%">
+				<div class="col-md-6">
+					<p class="text-center">
+						We have an unbelievable offer for you!
+					</p>
+					<img src='img/past.jpg' class="img-responsive imgOffer img-thumbnail" alt="Past">
+					<img src='img/future.jpg' class="img-responsive imgOffer img-thumbnail" alt="Future">
+					<p class="text-center">
+						Travel to both past and future, but pay only for one destination!
+					</p>
+				</div>
+				<div class="col-md-6 text-center count">
+					<p>There are</p>
+					<div class="countbox"></div>
+					<p>left till the end of the special offer</p>
+				</div>
+			</div>
+			<div class="row hurry">
+				<p class="text-center">HURRY TO APPLY!</p>
+			</div>
+			<div class="row" id="feedback">
+				<h2 class="text-center">CUSTOMER REVIEWS</h2>
+			</div>
+			<div class="row" style="margin:0 0 5%">
+				<div class="col-md-3">
+					<div class="feedback">
+						<img src="img/rose.jpg" alt="Rose Tyler" class="img-responsive">
+						<blockquote class="text-left">
+  							<p>The first nineteen years of my life, nothing happened. And then I met a man called the Doctor.</p>
+  							<footer><cite title="Rose Tyler">Rose Tyler</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="feedback">
+						<img src="img/river.jpg" alt="River Song" class="img-responsive">
+						<blockquote class="text-left">
+  							<p>Everybody knows that everybody dies, but not every day. Not today. Some days are special. Some days are so, so blessed. Some days, nobody dies at all. Now and then, every once in a very long while, every day in a million days, when the wind stands fair and the Doctor comes to call, everybody lives.</p>
+  							<footer><cite title="River Song">River Song</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="feedback">
+						<img src="img/vicki.jpg" alt="Vicki Pallister" class="img-responsive">
+						<blockquote class="text-left">
+  							<p>Oh, yes, I like The Doctor. It's funny but, as soon as he walked in, I felt that you could trust him. But why does he wear those funny clothes?</p>
+  							<footer><cite title="Vicki Pallister">Vicki Pallister</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="feedback">
+						<img src="img/captain.jpg" alt="Captain Jack Harkness" class="img-responsive">
+						<blockquote class="text-left">
+  							<p>Never doubted him, never will.</p>
+  							<footer><cite title="Captain Jack Harkness">Captain Jack Harkness</cite> about the Doctor </footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h2 class="text-center" id="contacts">CONTACT US</h2>
+			</div>
+			<div class="row contact" style="margin:0 0 5%">
+				<div class="col-md-6">
+					<p class="text-center">timetravelwiththedoctor@gmail.com</p>
+					<p class="text-center">+380955673421</p>
+					<p class="text-center">+380957373484</p>
+				</div>
+				<div class="col-md-6">
+					<p class="text-center">Address: Corso d'Italia, 1, 00198 Roma RM, Italy</p>
+					<img src="img/map.png" alt="map" class="ing-responsive center-block">
+				</div>
+			</div>
+			<div class="row foot">
+				<p class="text-center">Copyright © 2016 Time Travel with the Doctor.</p>
+			</div>		
+		</div>
+	</body>
+</html>

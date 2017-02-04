@@ -1,0 +1,39 @@
+.countbox{
+	padding: 0;
+	margin:5% auto;
+	line-height: 1.2;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 65px;
+	width: 324px;
+	height: 113px;
+}
+.countbox-hours,.countbox-mins,.countbox-secs {
+	float: left;
+	text-align: center;
+	background-image:url('../images/flip.png');
+	background-repeat:no-repeat;
+	margin: 0 7px 0 7px;
+	height: 89px;
+	width: 94px;
+	z-index:1;
+}
+.countbox-hours-text,.countbox-mins-text,.countbox-secs-text{
+	background-position: center;
+	background-repeat:no-repeat;
+	position: absolute;
+	margin-top: 5px;
+	height: 26px;
+	width: 94px;
+	font-size:15px; 
+	margin:2% 0;
+}
+.countbox-hours span, .countbox-mins span, .countbox-secs span {
+	background: url('../images/flip_gradient.png');
+	background-repeat:no-repeat;
+	position: absolute;
+	display: block;
+	height: 57px;
+	width: 94px;
+}
+	/*Скрипт скачан с сайта mywpnote.ru */
