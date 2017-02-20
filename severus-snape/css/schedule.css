@@ -1,0 +1,39 @@
+#schedule {
+}
+
+table {
+  width:100%;
+  text-align: center;
+  padding:0;
+  border-collapse: collapse;
+}
+
+td, th {
+  margin:0;
+  padding: 0.25em;
+  border-bottom: 1px solid white;
+  text-overflow: hidden;
+}
+
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2, h3, h4 {
+  padding:0;
+  margin:0;
+}
+
+h3 {
+  font-size: 0.75em;
+}
+
+h4 {
+  font-size: 0.75em;
+}
+
+@media only screen and (max-width: 640px) {
+  th {
+    font-size: 0.7em;
+  }
+}

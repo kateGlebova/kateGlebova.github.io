@@ -1,0 +1,196 @@
+@font-face {
+   font-family: HPfont;
+   src: url('../fonts/HARRYP__.TTF');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:100%;
+  font-family: HPfont, sans-serif;
+  color: white;
+  text-shadow: 2px 1px black;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0e532c;
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+}
+
+div {
+  margin:0;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+
+.container {
+  width: 100%;
+  height:100%;
+  padding: 0 40px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    font-size: 15px;
+  }
+}
+
+.header {
+  height: 10%;
+  width: 100%;
+  border-bottom: 2px solid white;
+  position: relative;
+}
+
+.brand-name {
+  color: white;
+  text-decoration: none;
+  float:left;
+  width: 50%;
+  height: 2em;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  margin:auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .brand-name {
+    bottom: 1em;
+  }
+}
+
+#brand-1 {
+  font-size: 1em;
+}
+
+#brand-2 {
+  font-size: 0.75em;
+}
+
+.nav-bar {
+  height: 100%;
+  float:right;
+  width: 50%;
+  position: relative;
+}
+
+#nav {
+  height: 30px;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  margin:auto;
+  cursor: pointer;
+}
+
+#nav img {
+  width:30px;
+}
+
+.main {
+  clear:both;
+  height: 90%;
+  padding: 2% 0;
+}
+
+.left-column {
+  height: 100%;
+  float:left;
+  width:70%;
+}
+
+.right-column {
+  height: 100%;
+  float:right;
+  width:30%;
+}
+
+#side {
+  height: 70%;
+  width:100%;
+  text-align: center;
+  /*position: relative;*/
+}
+
+#side img {
+  max-height:100%;
+  max-width:100%;
+  /*position: absolute;
+  bottom: 0;
+  top:0;
+  right:0;
+  margin:auto;*/
+}
+
+.footer {
+  height: 30%;
+  font-size: 1em;
+  text-align: right;
+  position: relative;
+}
+
+.footer-text {
+  height: 3em;
+  max-height: 100%;
+  position: absolute;
+  bottom: 0;
+  top:0;
+  right:0;
+  margin:auto;
+}
+
+#menu {
+  display: none;
+  position:absolute;
+  top:10% ;
+  right: 40px;
+  z-index:9999;
+  background-color: white;
+  color: #0e532c;
+  text-align: center;
+}
+
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+}
+
+li {
+  padding: 1em 2em;
+  border-bottom: 1px solid #0e532c;
+  text-shadow: 0.25px 0 black;
+}
+
+li:nth-child(3) {
+  border: none;
+}
+
+li:hover{
+  background-color: #0e532c;
+  color: white;
+}
+
+#content {
+  height: 100%;
+  position: relative;
+  padding:1em;
+}
+
+h1, p {
+  padding: 0;
+  margin:0;
+}
+
+h1 {
+  padding: 2% 0;
+  text-align: center;
+  font-size:2em;
+}
